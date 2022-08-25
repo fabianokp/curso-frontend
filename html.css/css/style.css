@@ -1,0 +1,198 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0%;
+	padding: 0;
+	font-family: serif;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+body {
+	height: 100vh;
+	background-color: white;
+}
+
+h1, h2, p, li {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #454545;
+	font-size: 2.0rem;
+}
+
+a {
+	color: #336;
+	text-decoration: none;
+}
+
+#primeiro-link > a {
+	color: #933;
+}
+
+ul {
+	background-color: none;
+	font-size: 10px;
+}
+
+ul li {
+	font-size: 0.8em; /* equivalente a 16px */
+	font-size: 1.6rem; /* equivanlente a 16px */
+	width: 80%;
+	height: 3rem; /* equivante a 30px */
+}
+
+p {
+	font-size: 1.6rem; /* equivalente a 16 */
+}
+
+h2 {
+	font-size: 5rem; /*equivalente a 20px*/
+	height: 3rem;
+}
+
+div {
+	padding: auto;
+	margin: 0;
+}
+
+.width-100 {
+	width: auto;
+	padding: auto;
+	height: auto;
+}
+
+.navegacao {
+	background-color: #ffffff;
+}
+
+.navegacao a {
+	color: #383;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 5px solid #D3D3D3;
+	border-top: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+	margin: 1rem 2rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66F;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type=email], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+.content{
+	float: left;
+	width: 100%;
+}
+
+.content{
+	width: 70.27818448023426%;
+	margin:  auto;
+	padding: 1.0416666666667%;
+}
+
+/* Style the header */
+header {
+	background-color: #DDDDDD;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: cadetblue;
+	width: auto;
+	
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+	float: left;
+	width: 30%;	
+	height: auto;	   
+	background: #FFFFFF;
+ 	padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+	list-style-type:none;
+	padding: 0;
+}
+
+article {
+	float: left;
+	padding: 10px;
+	width: 70%;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+/* Clear floats after the columns */
+	section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+	height: auto;
+}
+
+/* Style the footer */
+	footer {
+	background-color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+	height: auto;
+}
+
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+	nav, article {
+  	width: 100%;
+	height: auto;
+}
+
+/* Smartphone */
+@media (max-width: 425px) {
+
+	body{
+        background-color: white;
+    }
+
+    nav,
+    article,
+    .coluna {
+        width: 100%;
+        min-width: 320px;
+    }
+}
+
+}   
+
+form div {
+	padding: static;
+	position: relative;
+	margin-top: -10px;
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+	color: blue;
+}
+

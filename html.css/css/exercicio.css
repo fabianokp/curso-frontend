@@ -1,0 +1,142 @@
+
+
+html {
+	font-family: sans-serif;
+	color: white;
+
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+a {
+	color: #555555;
+	text-decoration: none; 
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+h1:hover {
+	color: #888;
+}
+
+
+h2:hover {
+	color: #888;
+
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+
+
+ul {
+	padding-left: .5rem;
+	margin-left: .5rem;
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h3, h2, h1 {
+	font: italic bold 1.2rem/2 sans-serif;
+  	text-align: center;
+}
+
+
+body {
+	background: url('../images/estrada1.jpg') center top repeat #EEEEEE;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.50);
+}
+
+p {
+	color: blue;
+	color: #034589;
+	text-align: center;
+
+}
+
+div {
+    margin: auto;
+
+}
+
+nav {
+    background-color: grey;
+    width: auto;
+    float: initial;
+}  
+ 
+	
+
+#grafico-01 {
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+	float: left;
+}
+
+#grafico-01 img {
+    width: 100%;
+    height: auto;
+}
+
+#grafico-02 {
+    background: gainsboro;
+    border-style: solid;
+    border-width: 60px 60px 60px  60px;
+    border-color: transparent transparent transparent goldenrod;
+    width: 300px;
+
+}
+#grafico-02 img {
+    width: 100%;
+    height: auto;
+	
+}
+
+header,
+footer {
+	background-color: #034589;
+	text-align: center;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 1.4rem;
+	
+}

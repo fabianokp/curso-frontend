@@ -23,6 +23,7 @@
 | ## Criar conta no GitHub
 |
 | ## Clonar o projeto
+ git clone https://github.com/fabianokp/curso-frontend.gitgi
 |
 | ## Commits
 | Informação de Alteração

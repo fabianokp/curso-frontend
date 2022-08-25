@@ -1,0 +1,173 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 10;
+	padding: 0;
+	font-size: 100% /* equivalente a 10px */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+    
+body {
+    font-size: 1.3em;
+	background-color: white;
+    color: #333;
+}
+
+header {
+	background-color: #333;
+	padding: 30px;
+	text-align: left;
+	font-size: 35px;
+	color: white;
+}
+
+nav {
+    /* background-color: tomato; */
+	float: left;
+	width: 30%;
+ 	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+    /*background-color: yellow;*/
+	float: left;
+	padding: 10px;
+	width: 70%;
+}
+
+footer {
+    color: #333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+div {
+    margin: 10% auto;
+    
+}
+
+#grafico-01 {  
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+	float: center;
+}
+
+#grafico-01 img {
+    width: 100%;
+    height: auto;
+}
+
+#grafico-02 {
+    border-style: solid;
+    border-width: 60px 60px 60px  120px;
+    border-color: transparent transparent transparent blue;
+    width: 300px;
+    float: center;
+}
+
+#grafico-02 img {
+    width: 100%;
+    height: auto;
+}
+
+#imagem-vetorial {
+     width: 100px;
+}
+    #canvas {
+        height: 300px;
+        width: 300px;
+}
+
+/* Filtros*/
+#grafico-01 {
+    filter: drop-shadow(8px 8px 10px #333);
+    max-width: 100%;
+}
+
+.filtro {
+    filter: grayscale(100%); /* escala de cinza*/
+    filter: blur(5px); /* desfoque */
+    filter: brightness(50%); /* brilho 100% = normal */
+    filter: invert(100%); /* inversão de cores*/
+    filter: opacity(50%);
+    filter: saturate(105%) sepia(100%) blur(5px) ; /* combina filtro separados por espaço */
+}
+	
+.filtro:hover {
+    filter: grayscale(0%);
+}
+
+.coluna {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 5px;
+    /* background: #eee; border: 1px solid #333;*/
+    
+}
+
+.coluna-3 {
+    columns: 100px 3;
+    width: 50%;
+}
+
+.coluna-100w {
+    width: 100%;
+}
+
+iframe {
+    width: 70%;
+}
+
+/* Mobile first*/
+
+/* Tablet */
+@media (min-width:769px) {
+
+    body{
+        background-color: teal;
+        color: #fff;
+    }
+    p, h3, li, a {
+        color:whitesmoke;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 30vw;
+    }
+    article {
+        width: 70vw;
+    }
+    .coluna {
+        width: 50vw;
+        min-width: unset;
+    }
+}
+
+/* Smartphone */
+@media (max-width: 425px) {
+    nav,
+    article,
+    .coluna {
+        width: 100%;
+        min-width: 320px;
+    }
+}
