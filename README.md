@@ -31,6 +31,23 @@ Windows: https://git-scm.com/download/win
  - git add *
  - git commit -m mensagem
  - git push (enviar alterações para repositório)
+ - git pull (puxar / trazer alterações do GitHub para sua máquina)
 
 ## GitFlow
 Fluxo do Git 
+
+
+### Branch
+São ramificação / versões paralelas
+
+- main / master (vai para produção, quando o projeto é publicado)
+- develop
+- DOD Definition of Done: critérios de aceite
+- versionamento 1.0.0
+
+git checkout -b dev (cria uma branch)
+git checkout master (mudar de branch)
+
+
+### Merge
+Mescla de branchs
