@@ -51,3 +51,16 @@ git checkout master (mudar de branch)
 
 ### Merge
 Mescla de branchs
+Você pode precisar resolverconflitos manualmente
+
+git merge main
+
+### Pull Requests
+Mescla de branchs no repositório
+Permute code review
+O repositório resolve os conflitos automaticamente
+
+
+### Configira o GitFlow
+git flow init
+git flow feature start {nome-da-feature}# fabianokp
