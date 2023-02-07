@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Sobre nós</h2>
+
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produto">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h1>Celulares</h1>
+                    <p>Realize agora mesmo o seu sonho de ter um aparelho celular rápido e com boa câmera. Aqui na (nome da loja) nós trabalhamos somente com as melhores marcas! E sabe o que é melhor? Com os melhores preços! Venha fazer uma visita e confira todas as condições!</p>
+                    <a class="btn btn-lg btn-success">Botão</a>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./imagem/mockupcelular-link-informatica.png" alt="Imagem Exemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produto">
+           
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <h2>Produto</h2> 
+
+                        <div class="card">
+                            <img src="./imagem/1xg.jpg" alt="Imagem Exemplo" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-tittle">Celular Smartphone Samsung Galaxy A03s</h5>
+                                <p class="card-text">Celular Smartphone Samsung Galaxy A03s Dual 64gb 4gb Ram Vermelho</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagem/2xg.jpg" alt="Imagem Exemplo" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-little">Smartphone Motorola Moto G22 </h5>
+                                <p class="card-text">Smartphone Motorola Moto G22 Preto 128GB 4GB RAM Tela de 6.5” Câmera Traseira Quádrupla Android 12 Processador Octa Core 2.3 GHz</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./imagem/3xg.jpg" alt="Imagem Exemplo" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-little">Apple iPhone 13 </h5>
+                                <p class="card-text">Apple iPhone 13 (512 GB) - Meia-noite</p>
+                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+    </section>  
+    
+    <section id="contato">
+        <div class="containe">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                <h2>Contato</h2>
+                <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+                        <div class="input-group">
+                             <input class="form-control" type="text" name="nome" placeholder="digite seu nome" id="">
+                        </div>
+                       
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu nome" id="">
+                       </div>
+
+                       <div class="input-group">
+                        <textarea class="form-control" name="" rows="5"></textarea>
+                       </div>
+
+                       <button type="submit" class="btn btn-lg btn-success">
+                        Solicitação Cotação
+                       </button>
+
+                    </form>
+
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descrição Do Produto e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Marca:</th>
+                                <th>Linha:</th>
+                                <th>Modelo:</th>
+                                <th>Cor:</th>
+                                <th>Preço:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Samsung</td>
+                                <td>Galaxy A</td>
+                                <td>A03s Dual SIM</td>
+                                <td>Vermelho</td>
+                                <td>R$1.099,00</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 2</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descrição Do Produto e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Marca:</th>
+                                <th>Linha:</th>
+                                <th>Modelo:</th>
+                                <th>Cor:</th>
+                                <th>Preço:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Motorola</td>
+                                <td>Moto G22</td>
+                                <td>Barra</td>
+                                <td>Preto</td>
+                                <td>R$ 1.169,10</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 3</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Descrição Do Produto e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Marca:</th>
+                                <th>Linha:</th>
+                                <th>Modelo:</th>
+                                <th>Cor:</th>
+                                <th>Preço:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Apple</td>
+                                <td>IPhone 13</td>
+                                <td>Apple iPhone 13 (512 GB) - Meia-noite</td>
+                                <td>Preto</td>
+                                <td>R$ 9.999,00</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
