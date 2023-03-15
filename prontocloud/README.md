@@ -32,4 +32,11 @@
 - Criar conteúdos para post (blog), e-mail marketing, landing page (call-to-action: e-mail*)
 - Post para redes sociais: texto + url curta
 - Incluir hospedagem (servidor web)
-- Git - histórico de evolução (commits detalhados)           
+- Git - histórico de evolução (commits detalhados)    
+
+### URL
+Uniform Resource Locator
+
+- URL amigável: humanos e mecanismos de busca
+https://url.gratis/xao9Ni
+https://ebaconline.com.br/front-end-profession
